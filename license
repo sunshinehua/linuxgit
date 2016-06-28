@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~
+cd f:/demo/linuxgit
+repo init -u git@192.167.100.232:platform/manifest.git -b QRD8926_KK --repo-url=git@192.167.100.232:repo.git
+repo sync -j4
